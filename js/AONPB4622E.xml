@@ -1,0 +1,2668 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><sch:InquiryResponse xmlns:sch="http://services.equifax.com/eport/ws/schemas/1.0">
+<sch:InquiryResponseHeader>
+<sch:CustomerCode>BLSP</sch:CustomerCode>
+<sch:ClientID>006FP07153</sch:ClientID>
+<sch:CustRefField/>
+<sch:ReportOrderNO>71528792</sch:ReportOrderNO>
+<sch:SuccessCode>1</sch:SuccessCode>
+<sch:Date>19-06-2020</sch:Date>
+<sch:Time>06:07:20</sch:Time>
+<sch:HitCode>10</sch:HitCode>
+<sch:ProductCodes>
+<sch:ProductCode>IDCR</sch:ProductCode>
+</sch:ProductCodes>
+</sch:InquiryResponseHeader>
+<sch:InquiryRequestInfo>
+<sch:InquiryPurpose>00</sch:InquiryPurpose>
+<sch:FullName>Ratandeep  Singh</sch:FullName>
+<sch:FirstName>Ratandeep </sch:FirstName>
+<sch:LastName>Singh</sch:LastName>
+<sch:AddrLine1>Raipur</sch:AddrLine1>
+<sch:State>CT</sch:State>
+<sch:Postal>492001</sch:Postal>
+<sch:InquiryAddresses>
+<sch:InquiryAddress seq="1">
+<sch:AddressLine>Raipur</sch:AddressLine>
+<sch:State>CT</sch:State>
+<sch:Postal>492001</sch:Postal>
+</sch:InquiryAddress>
+</sch:InquiryAddresses>
+<sch:InquiryPhones>
+<sch:InquiryPhone seq="1">
+<sch:Number>7046456777</sch:Number>
+<sch:PhoneType>M</sch:PhoneType>
+</sch:InquiryPhone>
+</sch:InquiryPhones>
+<sch:DOB>1989-05-02</sch:DOB>
+<sch:PANId>AONPB4622E</sch:PANId>
+<sch:MobilePhone>7046456777</sch:MobilePhone>
+</sch:InquiryRequestInfo>
+<sch:Scores>
+<sch:Score seq="1">
+<sch:Type>ERS</sch:Type>
+<sch:Version>3.1</sch:Version>
+</sch:Score>
+</sch:Scores>
+<sch:ReportData>
+<sch:IDAndContactInfo>
+<sch:PersonalInfo>
+<sch:Name>
+<sch:FullName>RATANDEEP SINGH BHATIA </sch:FullName>
+</sch:Name>
+<sch:DateOfBirth>1989-05-02</sch:DateOfBirth>
+<sch:Gender>Male</sch:Gender>
+<sch:Age>
+<sch:Age>31</sch:Age>
+</sch:Age>
+<sch:TotalIncome>480000</sch:TotalIncome>
+<sch:Occupation/>
+</sch:PersonalInfo>
+<sch:IdentityInfo>
+<sch:PANId seq="1" ReportedDate="2020-05-31">
+<sch:IdNumber>AONPB4622E</sch:IdNumber>
+</sch:PANId>
+<sch:PassportID seq="1" ReportedDate="2020-05-31">
+<sch:IdNumber>H2016001</sch:IdNumber>
+</sch:PassportID>
+</sch:IdentityInfo>
+<sch:AddressInfo seq="1" ReportedDate="2020-05-31">
+<sch:Address>C 60 RAJIV GRIH NIRMAN SAH SAMITI BAZAZ COLONY,RAIPUR</sch:Address>
+<sch:Postal>492001</sch:Postal>
+<sch:Type>N/A</sch:Type>
+</sch:AddressInfo>
+<sch:AddressInfo seq="2" ReportedDate="2019-09-01">
+<sch:Address>VISHAL NAGAR,PLOT NO D 97,NR GUJARAT GAS CRC ADAJAN ROAD,B/H VIJAY DAIRY</sch:Address>
+<sch:State>GJ</sch:State>
+<sch:Postal>395009</sch:Postal>
+<sch:Type>Primary</sch:Type>
+</sch:AddressInfo>
+<sch:AddressInfo seq="3" ReportedDate="2019-09-01">
+<sch:Address>ASIAN PAINTS LTD,NO 6A SHANTINAGAR MUMBA I SANTACRUZ</sch:Address>
+<sch:State>MH</sch:State>
+<sch:Postal>400055</sch:Postal>
+<sch:Type>Office</sch:Type>
+</sch:AddressInfo>
+<sch:AddressInfo seq="4" ReportedDate="2019-09-01">
+<sch:Address>NEW RAJENDRA NAGAR,PLOT,NO C/84 RAIPUR BAJAJ COLONY</sch:Address>
+<sch:Postal>492001</sch:Postal>
+<sch:Type>Permanent</sch:Type>
+</sch:AddressInfo>
+<sch:AddressInfo seq="5" ReportedDate="2019-08-31">
+<sch:Address>C 60 RAJIV GRIH NIRMAN SAH SAMITI BAZAZ COLONY,CHHATTISGARH</sch:Address>
+<sch:Postal>492001</sch:Postal>
+<sch:Type>Owns,Permanent</sch:Type>
+</sch:AddressInfo>
+<sch:PhoneInfo typeCode="H" seq="1" ReportedDate="2018-11-30">
+<sch:Number>917046456777</sch:Number>
+</sch:PhoneInfo>
+<sch:PhoneInfo typeCode="H" seq="2" ReportedDate="2018-06-30">
+<sch:Number>04031350</sch:Number>
+</sch:PhoneInfo>
+<sch:PhoneInfo typeCode="T" seq="5" ReportedDate="2019-08-31">
+<sch:Number>02613077148</sch:Number>
+</sch:PhoneInfo>
+<sch:PhoneInfo typeCode="T" seq="6" ReportedDate="2019-09-01">
+<sch:Number>2223456789</sch:Number>
+</sch:PhoneInfo>
+<sch:PhoneInfo typeCode="M" seq="3" ReportedDate="2020-05-31">
+<sch:Number>917046456777</sch:Number>
+</sch:PhoneInfo>
+<sch:PhoneInfo typeCode="M" seq="4" ReportedDate="2020-05-31">
+<sch:Number>7046456777</sch:Number>
+</sch:PhoneInfo>
+<sch:EmailAddressInfo seq="1" ReportedDate="2019-11-20">
+<sch:EmailAddress>RATAN_AMANBHATIA@REDIFFMAIL.COM</sch:EmailAddress>
+</sch:EmailAddressInfo>
+</sch:IDAndContactInfo>
+<sch:AccountSummary>
+<sch:AccountsSummary>
+<sch:NoOfAccounts>13</sch:NoOfAccounts>
+<sch:NoOfActiveAccounts>8</sch:NoOfActiveAccounts>
+<sch:NoOfWriteOffs>0</sch:NoOfWriteOffs>
+<sch:TotalPastDue>0.00</sch:TotalPastDue>
+<sch:MostSevereStatusWithIn24Months>01+</sch:MostSevereStatusWithIn24Months>
+<sch:SingleHighestCredit>106688.00</sch:SingleHighestCredit>
+<sch:SingleHighestSanctionAmount>1600000.00</sch:SingleHighestSanctionAmount>
+<sch:TotalHighCredit>353041.00</sch:TotalHighCredit>
+<sch:AverageOpenBalance>363382.75</sch:AverageOpenBalance>
+<sch:SingleHighestBalance>1342153.00</sch:SingleHighestBalance>
+<sch:NoOfPastDueAccounts>0</sch:NoOfPastDueAccounts>
+<sch:NoOfZeroBalanceAccounts>2</sch:NoOfZeroBalanceAccounts>
+<sch:RecentAccount>Credit Card on 24-10-2019</sch:RecentAccount>
+<sch:OldestAccount>Two-wheeler Loan on 06-09-2008</sch:OldestAccount>
+<sch:TotalBalanceAmount>2907062.00</sch:TotalBalanceAmount>
+<sch:TotalSanctionAmount>3100000.00</sch:TotalSanctionAmount>
+<sch:TotalCreditLimit>265000.0</sch:TotalCreditLimit>
+<sch:TotalMonthlyPaymentAmount>0.00</sch:TotalMonthlyPaymentAmount>
+</sch:AccountsSummary>
+</sch:AccountSummary>
+<sch:RecentActivities>
+<sch:AccountsDeliquent>0</sch:AccountsDeliquent>
+<sch:AccountsOpened>0</sch:AccountsOpened>
+<sch:TotalInquiries>0</sch:TotalInquiries>
+<sch:AccountsUpdated>6</sch:AccountsUpdated>
+</sch:RecentActivities>
+<sch:OtherKeyInd>
+<sch:AgeOfOldestTrade>141</sch:AgeOfOldestTrade>
+<sch:NumberOfOpenTrades>8</sch:NumberOfOpenTrades>
+<sch:AllLinesEVERWritten>0.00</sch:AllLinesEVERWritten>
+<sch:AllLinesEVERWrittenIn9Months>0</sch:AllLinesEVERWrittenIn9Months>
+<sch:AllLinesEVERWrittenIn6Months>0</sch:AllLinesEVERWrittenIn6Months>
+</sch:OtherKeyInd>
+<sch:EnquirySummary>
+<sch:Purpose>ALL</sch:Purpose>
+<sch:Total>2</sch:Total>
+<sch:Past30Days>0</sch:Past30Days>
+<sch:Past12Months>2</sch:Past12Months>
+<sch:Past24Months>2</sch:Past24Months>
+<sch:Recent>06-02-2020</sch:Recent>
+</sch:EnquirySummary>
+<sch:Enquiries seq="1">
+<sch:Institution>HDFC Bank Limited</sch:Institution>
+<sch:Date>2020-02-06</sch:Date>
+<sch:Time>14:01</sch:Time>
+<sch:RequestPurpose>10</sch:RequestPurpose>
+<sch:Amount>1000</sch:Amount>
+</sch:Enquiries>
+<sch:Enquiries seq="2">
+<sch:Institution>The Ratnakar Bank Limited</sch:Institution>
+<sch:Date>2019-08-19</sch:Date>
+<sch:Time>17:58</sch:Time>
+<sch:RequestPurpose>00</sch:RequestPurpose>
+</sch:Enquiries>
+<sch:AccountDetails>
+<sch:Account seq="1" ReportedDate="2020-05-31">
+<sch:AccountNumber> 4850680000283509</sch:AccountNumber>
+<sch:Institution>IDBI BANK</sch:Institution>
+<sch:AccountType>Credit Card</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>49210</sch:Balance>
+<sch:LastPayment>4200</sch:LastPayment>
+<sch:Open>Yes</sch:Open>
+<sch:HighCredit>59910</sch:HighCredit>
+<sch:LastPaymentDate>2020-05-11</sch:LastPaymentDate>
+<sch:DateReported>2020-05-31</sch:DateReported>
+<sch:DateOpened>2019-08-31</sch:DateOpened>
+<sch:Reason/>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency>Monthly</sch:TermFrequency>
+<sch:CreditLimit>75000</sch:CreditLimit>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Current Account</sch:AccountStatus>
+<sch:AssetClassification/>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="05-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-19">
+<sch:PaymentStatus>NEW</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-19">
+<sch:PaymentStatus>NEW</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="2" ReportedDate="2020-05-20">
+<sch:AccountNumber> 4381060100118608</sch:AccountNumber>
+<sch:Institution>Citibank</sch:Institution>
+<sch:AccountType>Credit Card</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>74972</sch:Balance>
+<sch:PastDueAmount>0</sch:PastDueAmount>
+<sch:LastPayment>4000</sch:LastPayment>
+<sch:Open>Yes</sch:Open>
+<sch:HighCredit>77026</sch:HighCredit>
+<sch:LastPaymentDate>2020-04-29</sch:LastPaymentDate>
+<sch:DateReported>2020-05-20</sch:DateReported>
+<sch:DateOpened>2019-10-24</sch:DateOpened>
+<sch:Reason/>
+<sch:InterestRate>42.000</sch:InterestRate>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency>Monthly</sch:TermFrequency>
+<sch:CreditLimit>80000</sch:CreditLimit>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Current Account</sch:AccountStatus>
+<sch:AssetClassification/>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="05-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-19">
+<sch:PaymentStatus>NEW</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="3" ReportedDate="2020-04-30">
+<sch:AccountNumber> 3399385223678096</sch:AccountNumber>
+<sch:Institution>Standard Chartered Bank</sch:Institution>
+<sch:AccountType>Credit Card</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>0</sch:Balance>
+<sch:PastDueAmount>0</sch:PastDueAmount>
+<sch:Open>Yes</sch:Open>
+<sch:HighCredit>57553</sch:HighCredit>
+<sch:DateReported>2020-04-30</sch:DateReported>
+<sch:DateOpened>2013-01-21</sch:DateOpened>
+<sch:Reason/>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency/>
+<sch:CreditLimit>50000</sch:CreditLimit>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Current Account</sch:AccountStatus>
+<sch:AssetClassification/>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="04-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="4" ReportedDate="2020-02-29">
+<sch:AccountNumber> 0005523650303229503</sch:AccountNumber>
+<sch:Institution>HDFC Bank Limited</sch:Institution>
+<sch:AccountType>Credit Card</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>90875</sch:Balance>
+<sch:Open>Yes</sch:Open>
+<sch:HighCredit>106688</sch:HighCredit>
+<sch:LastPaymentDate>2020-02-22</sch:LastPaymentDate>
+<sch:DateReported>2020-02-29</sch:DateReported>
+<sch:DateOpened>2010-09-07</sch:DateOpened>
+<sch:Reason/>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency/>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Current Account</sch:AccountStatus>
+<sch:AssetClassification/>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="02-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-20">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="5" ReportedDate="2019-10-30">
+<sch:AccountNumber> 0000000094358522327</sch:AccountNumber>
+<sch:Institution>SBI Cards and Payment Services Ltd</sch:Institution>
+<sch:AccountType>Credit Card</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>0</sch:Balance>
+<sch:PastDueAmount>0</sch:PastDueAmount>
+<sch:Open>Yes</sch:Open>
+<sch:HighCredit>0</sch:HighCredit>
+<sch:DateReported>2019-10-30</sch:DateReported>
+<sch:DateOpened>2017-08-21</sch:DateOpened>
+<sch:Reason/>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency>Monthly</sch:TermFrequency>
+<sch:CreditLimit>0</sch:CreditLimit>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Current Account</sch:AccountStatus>
+<sch:AssetClassification/>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="10-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="6" ReportedDate="2019-09-01">
+<sch:AccountNumber> 0000000008331578</sch:AccountNumber>
+<sch:Institution>ICICI BANK LIMITED</sch:Institution>
+<sch:AccountType>Credit Card</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>51864</sch:Balance>
+<sch:Open>Yes</sch:Open>
+<sch:HighCredit>51864</sch:HighCredit>
+<sch:LastPaymentDate>2019-04-30</sch:LastPaymentDate>
+<sch:DateReported>2019-09-01</sch:DateReported>
+<sch:DateOpened>2015-02-02</sch:DateOpened>
+<sch:Reason/>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency/>
+<sch:CreditLimit>60000</sch:CreditLimit>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Current Account</sch:AccountStatus>
+<sch:AssetClassification/>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="09-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-19">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-19">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-19">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-17">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-17">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-17">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-15">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-15">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-15">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="7" ReportedDate="2020-05-31">
+<sch:AccountNumber> 1294675100002288</sch:AccountNumber>
+<sch:Institution>IDBI BANK</sch:Institution>
+<sch:AccountType>Housing Loan</sch:AccountType>
+<sch:OwnershipType>Joint Account</sch:OwnershipType>
+<sch:Balance>1342153</sch:Balance>
+<sch:PastDueAmount>0</sch:PastDueAmount>
+<sch:Open>Yes</sch:Open>
+<sch:SanctionAmount>1600000</sch:SanctionAmount>
+<sch:LastPaymentDate>2020-05-10</sch:LastPaymentDate>
+<sch:DateReported>2020-05-31</sch:DateReported>
+<sch:DateOpened>2016-04-06</sch:DateOpened>
+<sch:Reason/>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency/>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Standard</sch:AccountStatus>
+<sch:AssetClassification>Standard</sch:AssetClassification>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="05-20">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-20">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-20">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-20">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-20">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-19">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-19">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-19">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-18">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-16">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="8" ReportedDate="2020-05-31">
+<sch:AccountNumber> 1294675100003193</sch:AccountNumber>
+<sch:Institution>IDBI BANK</sch:Institution>
+<sch:AccountType>Housing Loan</sch:AccountType>
+<sch:OwnershipType>Joint Account</sch:OwnershipType>
+<sch:Balance>1297988</sch:Balance>
+<sch:PastDueAmount>0</sch:PastDueAmount>
+<sch:Open>Yes</sch:Open>
+<sch:SanctionAmount>1500000</sch:SanctionAmount>
+<sch:LastPaymentDate>2020-05-10</sch:LastPaymentDate>
+<sch:DateReported>2020-05-31</sch:DateReported>
+<sch:DateOpened>2016-12-17</sch:DateOpened>
+<sch:Reason/>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency/>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Standard</sch:AccountStatus>
+<sch:AssetClassification>Standard</sch:AssetClassification>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="05-20">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-20">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-20">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-20">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-20">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-19">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-19">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-19">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-18">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-18">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-17">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-17">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-16">
+<sch:PaymentStatus>NEW</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="9" ReportedDate="2020-05-30">
+<sch:AccountNumber> 0005242479304038469</sch:AccountNumber>
+<sch:Institution>SBI Cards and Payment Services Ltd</sch:Institution>
+<sch:AccountType>Credit Card</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>0</sch:Balance>
+<sch:PastDueAmount>0</sch:PastDueAmount>
+<sch:Open>No</sch:Open>
+<sch:HighCredit>1844</sch:HighCredit>
+<sch:LastPaymentDate>2019-04-05</sch:LastPaymentDate>
+<sch:DateReported>2020-05-30</sch:DateReported>
+<sch:DateOpened>2017-08-21</sch:DateOpened>
+<sch:DateClosed>2019-10-22</sch:DateClosed>
+<sch:Reason>Closed Account</sch:Reason>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency>Monthly</sch:TermFrequency>
+<sch:CreditLimit>0</sch:CreditLimit>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Closed Account</sch:AccountStatus>
+<sch:AssetClassification/>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="05-20">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-20">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-20">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-20">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-20">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-19">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-19">
+<sch:PaymentStatus>01+</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-18">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-17">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="10" ReportedDate="2013-11-30">
+<sch:AccountNumber> 60053818744</sch:AccountNumber>
+<sch:Institution>Bank Of Maharashtra</sch:Institution>
+<sch:AccountType>Education Loan</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>0</sch:Balance>
+<sch:PastDueAmount>0</sch:PastDueAmount>
+<sch:Open>No</sch:Open>
+<sch:SanctionAmount>150000</sch:SanctionAmount>
+<sch:LastPaymentDate>2013-11-06</sch:LastPaymentDate>
+<sch:DateReported>2013-11-30</sch:DateReported>
+<sch:DateOpened>2011-08-23</sch:DateOpened>
+<sch:DateClosed>2013-11-06</sch:DateClosed>
+<sch:Reason>Closed Account</sch:Reason>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency/>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Closed Account</sch:AccountStatus>
+<sch:AssetClassification>Standard</sch:AssetClassification>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="11-13">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-12">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-11">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-11">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-11">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-11">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-11">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-10">
+<sch:PaymentStatus>NEW</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="11" ReportedDate="2013-07-31">
+<sch:AccountNumber> 21888858</sch:AccountNumber>
+<sch:Institution>HDFC Bank Limited</sch:Institution>
+<sch:AccountType>Two-wheeler Loan</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>0</sch:Balance>
+<sch:Open>No</sch:Open>
+<sch:SanctionAmount>30692</sch:SanctionAmount>
+<sch:LastPaymentDate>2013-07-06</sch:LastPaymentDate>
+<sch:DateReported>2013-07-31</sch:DateReported>
+<sch:DateOpened>2012-07-16</sch:DateOpened>
+<sch:DateClosed>2013-07-06</sch:DateClosed>
+<sch:Reason>Closed Account</sch:Reason>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency/>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Closed Account</sch:AccountStatus>
+<sch:AssetClassification>Standard</sch:AssetClassification>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="07-13">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-12">
+<sch:PaymentStatus>NEW</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="12" ReportedDate="2013-06-30">
+<sch:AccountNumber> 032720200026590</sch:AccountNumber>
+<sch:Institution>Fullerton India Credit Company Ltd.</sch:Institution>
+<sch:AccountType>Two-wheeler Loan</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>0</sch:Balance>
+<sch:PastDueAmount>0</sch:PastDueAmount>
+<sch:Open>No</sch:Open>
+<sch:SanctionAmount>32700</sch:SanctionAmount>
+<sch:LastPaymentDate>2012-08-05</sch:LastPaymentDate>
+<sch:DateReported>2013-06-30</sch:DateReported>
+<sch:DateOpened>2010-02-05</sch:DateOpened>
+<sch:DateClosed>2013-04-17</sch:DateClosed>
+<sch:Reason>Closed Account</sch:Reason>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency/>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Closed Account</sch:AccountStatus>
+<sch:AssetClassification/>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="06-13">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-13">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-13">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-13">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-12">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-11">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-10">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+<sch:Account seq="13" ReportedDate="2012-04-30">
+<sch:AccountNumber> 032720200009120</sch:AccountNumber>
+<sch:Institution>Fullerton India Credit Company Ltd.</sch:Institution>
+<sch:AccountType>Two-wheeler Loan</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>0</sch:Balance>
+<sch:PastDueAmount>0</sch:PastDueAmount>
+<sch:Open>No</sch:Open>
+<sch:SanctionAmount>31000</sch:SanctionAmount>
+<sch:LastPaymentDate>2010-09-05</sch:LastPaymentDate>
+<sch:DateReported>2012-04-30</sch:DateReported>
+<sch:DateOpened>2008-09-06</sch:DateOpened>
+<sch:DateClosed>2010-09-07</sch:DateClosed>
+<sch:Reason>Closed Account</sch:Reason>
+<sch:InterestRate/>
+<sch:RepaymentTenure/>
+<sch:DisputeCode/>
+<sch:TermFrequency/>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Closed Account</sch:AccountStatus>
+<sch:AssetClassification/>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="04-12">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-12">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-12">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-12">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-11">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-10">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="11-10">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="10-10">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="09-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-10">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-10">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+</sch:AccountDetails>
+<sch:Disclaimer>
+			This report is to be used subject to and in compliance with the
+			Membership agreement entered into between the Member/Specified User
+			and Equifax Credit Information Services Private Limited ("ECIS"), in
+			the case of Members/Specified Users of ECIS. In other cases, the use
+			of this report is governed by the terms and conditions of ECIS,
+			contained in the Application form submitted by the customer/user.
+
+			The information contained in this report is derived from various
+			Members/sources which are not controlled by ECIS. ECIS provides this
+			report on a best effort basis and does not guarantee the timeliness,
+			correctness or completeness of the information contained
+			therein,except as explicitly stated in the Membership agreement/terms
+			and conditions of ECIS, as the case may be.
+		</sch:Disclaimer>
+<sch:ScoreDetails>
+<sch:ScoreDetail>
+<sch:Name>M001</sch:Name>
+<sch:Version>3.1</sch:Version>
+<sch:Type>ERS</sch:Type>
+<sch:Value>713</sch:Value>
+<sch:ScoringElements>
+<sch:ScoringElement type="RES" seq="1">
+<sch:Code/>
+<sch:Description>Number of product trades</sch:Description>
+</sch:ScoringElement>
+<sch:ScoringElement type="RES" seq="2">
+<sch:Code>6c</sch:Code>
+<sch:Description>Balance amount of credit card trades</sch:Description>
+</sch:ScoringElement>
+<sch:ScoringElement type="RES" seq="3">
+<sch:Code>2b</sch:Code>
+<sch:Description>Delinquency or past due amount occurences</sch:Description>
+</sch:ScoringElement>
+<sch:ScoringElement type="RES" seq="4">
+<sch:Code>7b</sch:Code>
+<sch:Description>Number of two-wheeler accounts</sch:Description>
+</sch:ScoringElement>
+<sch:ScoringElement type="RES" seq="5">
+<sch:Code>8c</sch:Code>
+<sch:Description>Sanctioned amount of or lack of credit card trades</sch:Description>
+</sch:ScoringElement>
+</sch:ScoringElements>
+</sch:ScoreDetail>
+</sch:ScoreDetails>
+</sch:ReportData>
+</sch:InquiryResponse></soapenv:Body></soapenv:Envelope>

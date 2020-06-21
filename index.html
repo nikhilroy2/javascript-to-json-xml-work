@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- ............Header ............. -->
+    <header class=" shadow-sm py-2 pb-4 color_main">
+        <div class="container-lg">
+            <div class="row px-2">
+                <ul class="w-100 d-flex justify-content-between
+                  align-items-center">
+                    <li class="logo_list"> <img src="img/Paisa_Expo_Logo_blue.png" alt="Logo"> </li>
+                    <li class="pl-4">
+                        <h3>PaisaExpo Credit Report</h3>
+                    </li>
+                </ul>
+                <ul class="w-100 pt-2 pr-2 d-flex 
+                 justify-content-end">
+
+                    <li class="no_hover">
+                        <ul class="clientInfomation clientErrorMsg">
+                            <li id="clientId" class=" font-weight-normal text-right p-1">  </li>
+                            <li id="reportOrder" class=" font-weight-normal text-right p-1"></li>
+                            <li id="reportCreateDate" class=" font-weight-normal text-right p-1"> </li>
+                            <li id="reportCreateTime" class=" font-weight-normal text-right p-1"> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- ............Header .............End -->
+
+    <!-- .............Section 1 ........... -->
+    <section class=" section_1 pt-4 ">
+        <div class="container-lg">
+
+            <!-- ............. Control Button .......... -->
+            <div class="row pb-4">
+                <div class="w-100">
+                    <button type="button" onclick="window.print()" style="cursor: pointer!important; z-index: 1000;" id="submit" class="btn bg_main text-light">Save or Print</button>
+
+                </div>
+            </div>
+            <!-- ............. Control Button ..........End -->
+            <!-- .............. ReportData .......... -->
+
+            <!--IDAndContactInfo  -->
+            <div id="APPLICANT_DETAILS" class="row shadow-sm mb-4">
+                <!-- Table title  -->
+                <div class="w-100  ">
+                    <div class="table_title bg_white_head p-2">
+                        <span class="d-inline-block icon_size text-light bg_main rounded-circle">
+                            <i class="fas fa-check    "></i> </span> Applicant Details
+                    </div>
+                </div>
+                <!-- Table title  End-->
+
+                <!-- Main Table -->
+                <div data-report class="w-100 p-2">
+                    <ul class="row  " data-IDAndContactInfo>
+                    </ul>
+                </div>
+                <!-- Main Table End-->
+
+            </div>
+
+            <!--IDAndContactInfo End -->
+
+            <!-- ScoreDetails -->
+
+            <div class="row shadow-sm mb-4">
+                <!-- Table title  -->
+                <div class="w-100  ">
+                    <div class="table_title bg_white_head p-2">
+                        <span class="d-inline-block icon_size text-light bg_main rounded-circle">
+                            <i class="fas fa-check    "></i> </span> Equifax Credit Score
+                    </div>
+                </div>
+                <!-- Table title  End-->
+
+                <!-- Main Table -->
+                <div data-report class="w-100 p-2">
+                    <ul data-ScoreDetails class="row align-items-center py-3 ">
+                        <li class="col-12 col-sm-4 no_hover">
+                            <span>
+                                <img src="img/score.png" alt="">
+                            </span>
+                            <span data-score-count style="font-size: 2rem">
+
+                            </span>
+                        </li>
+                        <li class="col-12 col-sm-8 shadow-sm p-2">
+                            <ul data-Score-factor>
+                                <li style="text-decoration: underline" class="py-2">Score Factor</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Main Table End-->
+
+            </div>
+
+            <!-- ScoreDetails End-->
+
+            <!-- AccountsSummary -->
+
+            <div id="content" class="row AccountsSummary shadow-sm mb-4">
+                <!-- Table title  -->
+                <div class="w-100  ">
+                    <div class="table_title bg_white_head p-2">
+                        <span class="d-inline-block icon_size text-light bg_main rounded-circle">
+                            <i class="fas fa-check    "></i> </span> Account Summary
+                    </div>
+                </div>
+                <!-- Table title  End-->
+
+                <!-- Main Table -->
+                <div data-report class="w-100 p-2">
+                    <ul data-AccountsSummary class="row ">
+                    </ul>
+                </div>
+                <!-- Main Table End-->
+
+            </div>
+
+            <!-- AccountsSummary End-->
+
+            <!-- RecentActivities -->
+
+            <div class="row shadow-sm mb-4">
+                <!-- Table title  -->
+                <div class="w-100  ">
+                    <div class="table_title bg_white_head p-2">
+                        <span class="d-inline-block icon_size text-light bg_main rounded-circle">
+                            <i class="fas fa-check    "></i> </span> Recent Activities
+                    </div>
+                </div>
+                <!-- Table title  End-->
+
+                <!-- Main Table -->
+                <div data-report class="w-100 p-2">
+                    <ul data-RecentActivities class="row ">
+                    </ul>
+                </div>
+                <!-- Main Table End-->
+
+            </div>
+
+            <!-- RecentActivities End-->
+
+
+            <!-- OtherKeyInd -->
+
+            <div class="row shadow-sm mb-4">
+                <!-- Table title  -->
+                <div class="w-100  ">
+                    <div class="table_title bg_white_head p-2">
+                        <span class="d-inline-block icon_size text-light bg_main rounded-circle">
+                            <i class="fas fa-check    "></i> </span> Other's
+                    </div>
+                </div>
+                <!-- Table title  End-->
+
+                <!-- Main Table -->
+                <div data-report class="w-100 p-2">
+                    <ul data-OtherKeyInd class="row ">
+                    </ul>
+                </div>
+                <!-- Main Table End-->
+
+            </div>
+
+            <!-- OtherKeyInd End-->
+
+
+            <!-- EnquirySummary -->
+
+            <div class="row shadow-sm mb-4">
+                <!-- Table title  -->
+                <div class="w-100  ">
+                    <div class="table_title bg_white_head p-2">
+                        <span class="d-inline-block icon_size text-light bg_main rounded-circle">
+                            <i class="fas fa-check    "></i> </span> Enquiry Summary
+                    </div>
+                </div>
+                <!-- Table title  End-->
+
+                <!-- Main Table -->
+                <div data-report class="w-100 p-2">
+                    <ul data-EnquirySummary class="row ">
+                    </ul>
+                </div>
+                <!-- Main Table End-->
+
+            </div>
+
+            <!-- EnquirySummary End-->
+
+            <!-- Enquiries -->
+
+            <div class="row shadow-sm mb-4">
+                <!-- Table title  -->
+                <div class="w-100  ">
+                    <div class="table_title bg_white_head p-2">
+                        <span class="d-inline-block icon_size text-light bg_main rounded-circle">
+                            <i class="fas fa-check    "></i> </span> Recent Enuiries
+                    </div>
+                </div>
+                <!-- Table title  End-->
+
+                <!-- Main Table -->
+                <div data-report class="w-100 p-2">
+                    <ul class="row table-responsive-sm height_400">
+
+                        <table class="table table-hover ">
+                            <thead data-Enquiries-head>
+                                <tr>
+
+                                </tr>
+                            </thead>
+                            <tbody data-Enquiries-body>
+
+                            </tbody>
+                        </table>
+
+                    </ul>
+                </div>
+                <!-- Main Table End-->
+
+            </div>
+
+            <!-- Enquiries End-->
+            <!-- Account -->
+
+            <div class="row shadow-sm mb-4">
+                <!-- Table title  -->
+                <div class="w-100  ">
+                    <div class="table_title bg_white_head p-2">
+                        <span class="d-inline-block icon_size text-light bg_main rounded-circle">
+                            <i class="fas fa-check    "></i> </span> Account Details
+                    </div>
+                </div>
+                <!-- Table title  End-->
+
+                <!-- Main Table -->
+                <div data-report data-main-account class="w-100 p-2  height_600">
+
+                </div>
+                <!-- Main Table End-->
+
+            </div>
+            <!-- Account End-->
+
+
+            <!-- Disclaimer -->
+
+            <div class="row shadow-sm mb-4">
+                <!-- Table title  -->
+                <div class="w-100  ">
+                    <div class="table_title bg_white_head p-2">
+                        <span class="d-inline-block icon_size text-light bg_main rounded-circle">
+                            <i class="fas fa-info    "></i> </span> Disclaimer
+                    </div>
+                </div>
+                <!-- Table title  End-->
+
+                <!-- Main Table -->
+                <div data-report class="w-100 p-2 ">
+                    <p data-Disclaimer-body>
+
+                    </p>
+                </div>
+                <!-- Main Table End-->
+
+            </div>
+
+            <!-- Disclaimer End-->
+
+            <!-- ConsumerDisputes -->
+
+            <div id="ConsumerDisputes" class="row shadow-sm mb-4">
+                <!-- Table title  -->
+                <div class="w-100  ">
+                    <div class="table_title bg_white_head p-2">
+                        <span class="d-inline-block icon_size text-light bg_main rounded-circle">
+                            <i class="fas fa-check    "></i> </span> Consumer Disputes
+                    </div>
+                </div>
+                <!-- Table title  End-->
+
+                <!-- Main Table -->
+                <div data-report class="w-100 p-2 ">
+                    <ul class="row ">
+
+
+                        <li class="w-100 table-responsive table_res_size height_600">
+
+                            <table class="table w-100 table-hover position-relative">
+                                <thead data-ConsumerDisputes-head>
+                                    <tr>
+                                        <th class="sticky-top z_100 color_main bg-light"> Status</th>
+                                        <th class="sticky-top z_100 color_main bg-light">Created Date </th>
+                                        <th colspan="30" class="sticky-top z_100 color_main bg-light">Details </th>
+                                    </tr>
+                                </thead>
+
+                                <tbody data-ConsumerDisputes-body>
+
+                                </tbody>
+                            </table>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Main Table End-->
+
+            </div>
+            <!-- ConsumerDisputes End-->
+            <!-- .............. ReportData .......... End-->
+
+
+
+            <!-- Contact Us -->
+
+            <div class="row shadow-sm mb-4">
+                <!-- Table title  -->
+                <div class="w-100  ">
+                    <div class="table_title bg_white_head p-2">
+                        <span class="d-inline-block icon_size text-light bg_main rounded-circle">
+                            <i class="fas fa-check    "></i> </span> Contact us
+                    </div>
+                </div>
+                <!-- Table title  End-->
+
+                <!-- Main Table -->
+                <div data-report class="w-100 p-2 ">
+                    <article>
+
+                        <p>
+                            If you find a discrepancy in your report, it is important to quickly raise it with your
+                            lender. Under the Credit Information Companies (Regulation) Act 2005 and as per the
+                            guidelines set by the Reserve
+                            However, we would be happy to help you with this process.
+                            If you would like us to help, please contact us at contact@paisaexpo.com.
+                        </p>
+
+                        <br>
+
+                        <p>
+
+                            Please feel free to contact us if you have any questions. <br>
+
+                            Email: contact@paisaexpo.com <br>
+                            Website: www.paisaexpo.com
+
+                        </p>
+                    </article>
+                </div>
+                <!-- Main Table End-->
+            </div>
+
+
+            <!-- Contact Us End-->
+
+            <!-- ............. Control Button .......... -->
+            <div class="row pb-4">
+                <div class="w-100">
+                    <button type="button" onclick="window.print()" style="cursor: pointer;" class="btn bg_main text-light">Save or Print</button>
+                </div>
+            </div>
+            <!-- ............. Control Button ..........End -->
+
+        </div>
+
+
+
+        <!-- This code example was  found here ...
+       https://www.quora.com/How-do-I-export-my-HTML-page-as-PDF-using-JavaScript/answer/Jitendraamishra
+       -->
+
+
+    </section>
+
+    <!-- .............Section 1 ...........End -->
+    <!-- .............For Custom Script....... -->
+    <script  src="js/script.js"></script>
+
+    <!-- .............For Vendor script -->
+
+    <!-- .............For Vendor script --End>
+
+</body>
+
+</html>

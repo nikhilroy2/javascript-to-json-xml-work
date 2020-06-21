@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><sch:InquiryResponse xmlns:sch="http://services.equifax.com/eport/ws/schemas/1.0">
+<sch:InquiryResponseHeader>
+<sch:CustomerCode/>
+<sch:ClientID>006FP07153</sch:ClientID>
+<sch:CustRefField/>
+<sch:ReportOrderNO>71573291</sch:ReportOrderNO>
+<sch:SuccessCode>1</sch:SuccessCode>
+<sch:Date>20-06-2020</sch:Date>
+<sch:Time>06:11:57</sch:Time>
+<sch:HitCode>00</sch:HitCode>
+<sch:ProductCodes>
+<sch:ProductCode>IDCR</sch:ProductCode>
+</sch:ProductCodes>
+</sch:InquiryResponseHeader>
+<sch:InquiryRequestInfo>
+<sch:InquiryPurpose>00</sch:InquiryPurpose>
+<sch:FullName>AVINASH BHUTE</sch:FullName>
+<sch:FirstName>AVINASH</sch:FirstName>
+<sch:LastName>BHUTE</sch:LastName>
+<sch:AddrLine1>Ballabgarh</sch:AddrLine1>
+<sch:State>AP</sch:State>
+<sch:Postal>121006</sch:Postal>
+<sch:InquiryAddresses>
+<sch:InquiryAddress seq="1">
+<sch:AddressLine>Ballabgarh</sch:AddressLine>
+<sch:State>AP</sch:State>
+<sch:Postal>121006</sch:Postal>
+</sch:InquiryAddress>
+</sch:InquiryAddresses>
+<sch:InquiryPhones>
+<sch:InquiryPhone seq="1">
+<sch:Number>2323232323</sch:Number>
+<sch:PhoneType>M</sch:PhoneType>
+</sch:InquiryPhone>
+</sch:InquiryPhones>
+<sch:DOB>1947-08-15</sch:DOB>
+<sch:PANId>AFZPK7190K</sch:PANId>
+<sch:MobilePhone>2323232323</sch:MobilePhone>
+</sch:InquiryRequestInfo>
+<sch:Scores>
+<sch:Score seq="1">
+<sch:Type>ERS</sch:Type>
+<sch:Version>3.1</sch:Version>
+</sch:Score>
+</sch:Scores>
+<sch:ReportData>
+<sch:Error>
+<sch:ErrorCode>00</sch:ErrorCode>
+<sch:ErrorMsg>Consumer record not found</sch:ErrorMsg>
+</sch:Error>
+</sch:ReportData>
+</sch:InquiryResponse></soapenv:Body></soapenv:Envelope>

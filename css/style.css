@@ -1,0 +1,155 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bg_main {
+  background: #07a2ce !important;
+}
+
+.color_main {
+  color: #07a2ce !important;
+}
+
+.bg_white_head {
+  background: #EDEDED;
+}
+
+.z_100 {
+  z-index: 100;
+}
+
+.icon_size {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+li:hover {
+  background: #EDEDED;
+}
+
+li {
+  font-weight: bold;
+}
+
+td, th {
+  font-weight: bold;
+}
+
+.hori_scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.no_hover:hover {
+  background: transparent;
+}
+
+.pt_40 {
+  padding-top: 40px !important;
+}
+
+p {
+  line-height: 2.2rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 13px;
+  }
+  header h3 {
+    font-size: 17px;
+  }
+  header img {
+    display: inline-block;
+    width: 80%;
+  }
+}
+
+.table_res_size {
+  height: 300px;
+  overflow: auto;
+}
+
+.height_600 {
+  height: 600px !important;
+  overflow-y: auto;
+}
+
+.height_400 {
+  max-height: 400px !important;
+  overflow-y: auto;
+}
+
+.table_title {
+  text-transform: uppercase;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.table_border_half_tb {
+  position: relative;
+}
+
+.table_border_half_tb::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-top: 1px dashed #07a2ce;
+  border-bottom: 1px dashed #07a2ce;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+@media print {
+  .table_res_size {
+    overflow: visible !important;
+    height: auto !important;
+  }
+  .height_600 {
+    overflow: visible !important;
+    height: auto !important;
+  }
+  .height_400 {
+    overflow: visible !important;
+    height: auto !important;
+  }
+  .hori_scroll {
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+  }
+  .table-responsive {
+    overflow-x: visible !important;
+  }
+  .table-responsive-md {
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+    width: auto !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
