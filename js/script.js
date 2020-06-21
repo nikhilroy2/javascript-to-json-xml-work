@@ -23,12 +23,12 @@ xhttp.onreadystatechange = function() {
             let result = JSON.parse(JSON.stringify(data));
             const api = result.Envelope.Body.InquiryResponse;
             let forError = ReportObject().ReportData;
-            let getError = `ErrorCode: ${forError.Error ?forError.Error.ErrorCode: '' } <br/> ErrorMsg: ${forError.Error ?forError.Error.ErrorMsg : ''}`;
+            let getError = `ErrorCode: ${forError.Error ? forError.Error.ErrorCode : ''} <br/> ErrorMsg: ${forError.Error ? forError.Error.ErrorMsg : ''}`;
 
             function ReportObject() {
                 return api;
             }
-            //   console.log(JSON.stringify(api));
+            console.log(JSON.stringify(api));
             // for not found ... 
             const { ClientID, ReportOrderNO, Date, Time, SuccessCode } = ReportObject().InquiryResponseHeader;
 
@@ -77,12 +77,7 @@ xhttp.onreadystatechange = function() {
                         OtherKeyInd,
                         EnquirySummary,
                         Enquiries,
-                        AccountDetails: {
-                            Account,
-                            Account: [{
-                                History48Months
-                            }]
-                        },
+                        AccountDetails,
                         Disclaimer,
                         ConsumerDisputes,
                         DimensionalVariable,
@@ -370,6 +365,25 @@ xhttp.onreadystatechange = function() {
             Report_IDAndContactInfo()
             // ...................IDAndContactInfo...............End
 
+
+             // ...................ScoreDetails...............
+
+             function Report_ScoreDetails() {
+                const { ScoringElements: {
+                    ScoringElement
+                } } = ScoreDetail;
+                s('[data-score-count]').innerHTML = ScoreDetail.Value
+                ScoringElement.map((n, m) => {
+                    s('[data-Score-factor]').innerHTML +=
+                        `
+               <li class="py-1"> <span class="pr-2"> ${m + 1} </span> ${n.Description != undefined ? n.Description : ''}</li>
+               `
+                })
+            }
+            Report_ScoreDetails()
+            // ...................ScoreDetails...............End
+
+
             {
                 // ...................AccountsSummary...............
 
@@ -467,11 +481,13 @@ xhttp.onreadystatechange = function() {
 
             {
                 // ...................Enquiries...............
-               // console.log(JSON.stringify(Enquiries));
-                function Report_Enquiries() {
-                    let arr = Object.entries(Enquiries instanceof Array ? Enquiries[0] : Enquiries);
-                    s('[data-Enquiries-head] tr').innerHTML =
-                        `<th class="color_main">Sequence</th>
+                // console.log(JSON.stringify(Enquiries));
+                if (Enquiries) {
+                    console.log('true')
+                    function Report_Enquiries() {
+                        let arr = Object.entries(Enquiries instanceof Array ? Enquiries[0] : Enquiries);
+                        s('[data-Enquiries-head] tr').innerHTML =
+                            `<th class="color_main">Sequence</th>
                     <th class="color_main">Institution</th>
                     <th class="color_main">Date</th>
                     <th class="color_main">Time</th>
@@ -479,43 +495,51 @@ xhttp.onreadystatechange = function() {
                     <th class="color_main">Amount</th>`
 
 
-                    if(Enquiries instanceof Array) {
-                        Enquiries.map(j => {
-                            s('[data-Enquiries-body]').innerHTML +=
-                                ` <tr> <td> ${j.attr.seq} </td>
+                        if (Enquiries instanceof Array) {
+                            Enquiries.map(j => {
+                                s('[data-Enquiries-body]').innerHTML +=
+                                    ` <tr> <td> ${j.attr.seq} </td>
                     <td> ${j.Institution} </td>
                     <td> ${j.Date} </td>
                     <td> ${j.Time} </td>
                     <td> ${j.RequestPurpose} </td>
                     <td> ${j.Amount} </td>
                     </tr> `
-                        })
-                    } else {
-                        s('[data-Enquiries-body]').innerHTML +=
-                        ` <tr> <td> ${Enquiries.attr.seq} </td>
+                            })
+                        } else {
+                            s('[data-Enquiries-body]').innerHTML +=
+                                ` <tr> <td> ${Enquiries.attr.seq} </td>
             <td> ${Enquiries.Institution} </td>
             <td> ${Enquiries.Date} </td>
             <td> ${Enquiries.Time} </td>
             <td> ${Enquiries.RequestPurpose} </td>
                     ${Enquiries.Amount == undefined ? ` <td> - </td>` : ` <td> ${Enquiries.Amount} </td>`}
             </tr> `
+                        }
+                       
                     }
+                    Report_Enquiries()
+                } else {
+                    console.log('Enquiries not found')
+                    s('[data-Enquiries-section]').remove()
                 }
 
-                Report_Enquiries()
+
                 // ...................Enquiries...............End
             }
 
 
 
             // ...................Account...............
-
             // console.log(Account)
             function Report_Account() {
+                let { Account } = AccountDetails;
 
-                Account.map((j, i) => {
-                    s('[data-main-account]').innerHTML +=
-                        `
+                if (Account instanceof Array) {
+                    //console.log('')
+                    Account.map((j, i) => {
+                        s('[data-main-account]').innerHTML +=
+                            `
               <ul class="row position-relative py-2  table-responsive-md "> 
               <table class="table table-borderless ">
               <thead data-Account-head>
@@ -602,7 +626,10 @@ xhttp.onreadystatechange = function() {
             
 </ul>
               `
-                })
+                    })
+                } else {
+                    console.log('Account is object')
+                }
 
             }
 
@@ -617,174 +644,215 @@ xhttp.onreadystatechange = function() {
 
             //  .................... History48Months......................
             //  console.log(Account)
-            const totalAccount = Account.length;
-            //  console.log(totalAccount)
-            for (let i = 0; i < Number(totalAccount); i++) {
-                {
-                    // const {History48Months: {Month}} = Account[i];
-                    // const monthObj = Month instanceof Array ? Month : [Month];
+            let { Account } = AccountDetails;
+            if (Account instanceof Array) {
+                const totalAccount = Account.length;
+                //  console.log(totalAccount)
+                for (let i = 0; i < Number(totalAccount); i++) {
+                    {
+                        // const {History48Months: {Month}} = Account[i];
+                        // const monthObj = Month instanceof Array ? Month : [Month];
 
-                    // account 1 history
-                    const acc = Account[1 - 1].History48Months.Month
-                    //  console.log(acc)
-                    if (i <= acc.length - 1) {
-                        const status = acc[i];
+                        // account 1 history
+                        const acc = Account[1 - 1].History48Months.Month
+                        //  console.log(acc)
+                        if (i <= acc.length - 1) {
+                            const status = acc[i];
 
-                        s(`[data-no-${1 - 1}] .data-no-month-row`).innerHTML += `
-                    <td>   ${status.attr.key} </td>
-                   `
-                        s(`[data-no-${1 - 1}] .data-no-payment-row`).innerHTML += `
-                   <td>   ${status.PaymentStatus} </td>
-                  `
-                        s(`[data-no-${1 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
-                  <td>   ${status.SuitFiledStatus} </td>
-                 `
-                        s(`[data-no-${1 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
-                 <td>  ${status.AssetClassificationStatus} </td>
-                `
-                    }
-                }
-
-                {
-                    // account 2 history
-                    const acc = Account[2 - 1].History48Months.Month
-                    if (i <= acc.length - 1) {
-                        const status = acc[i];
-                        // console.log(Account[1].History48Months.Month.length)
-                        // console.log(status._key)
-                        s(`[data-no-${2 - 1}] .data-no-month-row`).innerHTML += `
-                    <td>   ${status.attr.key} </td>
-                   `
-                        s(`[data-no-${2 - 1}] .data-no-payment-row`).innerHTML += `
-                   <td>   ${status.PaymentStatus} </td>
-                  `
-                        s(`[data-no-${2 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
-                  <td>   ${status.SuitFiledStatus} </td>
-                 `
-                        s(`[data-no-${2 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
-                 <td>  ${status.AssetClassificationStatus} </td>
-                `
-                    }
-                }
-                {
-                    // account 3 history
-                    const acc = Account[3 - 1].History48Months.Month
-                    if (i <= acc.length - 1) {
-                        const status = acc[i];
-                        // console.log(Account[1].History48Months.Month.length)
-                        // console.log(status._key)
-                        s(`[data-no-${3 - 1}] .data-no-month-row`).innerHTML += `
-                    <td>   ${status.attr.key} </td>
-                   `
-                        s(`[data-no-${3 - 1}] .data-no-payment-row`).innerHTML += `
-                   <td>   ${status.PaymentStatus} </td>
-                  `
-                        s(`[data-no-${3 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
-                  <td>   ${status.SuitFiledStatus} </td>
-                 `
-                        s(`[data-no-${3 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
-                 <td>  ${status.AssetClassificationStatus} </td>
-                `
-                    }
-                }
-
-                {
-                    // account 4 history
-                    const acc = Account[4 - 1].History48Months.Month
-                    if (i <= acc.length - 1) {
-                        const status = acc[i];
-                        // console.log(Account[1].History48Months.Month.length)
-                        // console.log(status._key)
-                        s(`[data-no-${4 - 1}] .data-no-month-row`).innerHTML += `
-                    <td>   ${status.attr.key} </td>
-                   `
-                        s(`[data-no-${4 - 1}] .data-no-payment-row`).innerHTML += `
-                   <td>   ${status.PaymentStatus} </td>
-                  `
-                        s(`[data-no-${4 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
-                  <td>   ${status.SuitFiledStatus} </td>
-                 `
-                        s(`[data-no-${4 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
-                 <td>  ${status.AssetClassificationStatus} </td>
-                `
-                    }
-                }
-                {
-                    // account 5 history
-                    if (i <= 0) {
-                        const status = Account[4].History48Months.Month;
-                        //   console.log(JSON.stringify(status))
-                        //  console.log(status.PaymentStatus.__text)
-                        // console.log(Account[1].History48Months.Month.length)
-                        // console.log(status)
-
-                        // console.log(status._key)
-                        if (status instanceof Array) {
-                            //   console.log('true')
-
-                            status.forEach(v => {
-                                s(`[data-no-4] .data-no-month-row`).innerHTML += `
-                        <td>   ${v.attr.key} </td>
+                            s(`[data-no-${1 - 1}] .data-no-month-row`).innerHTML += `
+                        <td>   ${status.attr.key} </td>
                        `
-                                s(`[data-no-4] .data-no-payment-row`).innerHTML += `
-                       <td>   ${v.PaymentStatus} </td>
+                            s(`[data-no-${1 - 1}] .data-no-payment-row`).innerHTML += `
+                       <td>   ${status.PaymentStatus} </td>
                       `
-                                s(`[data-no-4] .data-no-SuitFiledStatus-row`).innerHTML += `
-                      <td>   ${v.SuitFiledStatus} </td>
+                            s(`[data-no-${1 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
+                      <td>   ${status.SuitFiledStatus} </td>
                      `
-                                s(`[data-no-4] .data-no-AssetClassificationStatus-row`).innerHTML += `
-                     <td>  ${v.AssetClassificationStatus} </td> `
-                            })
-
-                        } else {
-                            // console.log('false')
-
-                            s(`[data-no-4] .data-no-month-row`).innerHTML += `
-                       <td>   ${status.attr.key} </td>
-                      `
-                            s(`[data-no-4] .data-no-payment-row`).innerHTML += `
-                      <td>   ${status.PaymentStatus} </td>
-                     `
-                            s(`[data-no-4] .data-no-SuitFiledStatus-row`).innerHTML += `
-                     <td>   ${status.SuitFiledStatus} </td>
+                            s(`[data-no-${1 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
+                     <td>  ${status.AssetClassificationStatus} </td>
                     `
-                            s(`[data-no-4] .data-no-AssetClassificationStatus-row`).innerHTML += `
-                    <td>  ${status.AssetClassificationStatus} </td> `
                         }
                     }
-                }
-
-                for (let n = 6; n <= Number(totalAccount); n++) {
-                    //  console.log(n)
 
                     {
-                        // account 6 history
-                        const acc = Account[n - 1].History48Months.Month
-
+                        // account 2 history
+                        const acc = Account[2 - 1].History48Months.Month
                         if (i <= acc.length - 1) {
-
                             const status = acc[i];
-                            // console.log(status)
                             // console.log(Account[1].History48Months.Month.length)
                             // console.log(status._key)
-                            s(`[data-no-${n - 1}] .data-no-month-row`).innerHTML += `
-                    <td>   ${status.attr.key} </td>
-                   `
-                            s(`[data-no-${n - 1}] .data-no-payment-row`).innerHTML += `
-                   <td>   ${status.PaymentStatus} </td>
-                  `
-                            s(`[data-no-${n - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
-                  <td>   ${status.SuitFiledStatus} </td>
-                 `
-                            s(`[data-no-${n - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
-                 <td>  ${status.AssetClassificationStatus} </td>
-                `
+                            s(`[data-no-${2 - 1}] .data-no-month-row`).innerHTML += `
+                        <td>   ${status.attr.key} </td>
+                       `
+                            s(`[data-no-${2 - 1}] .data-no-payment-row`).innerHTML += `
+                       <td>   ${status.PaymentStatus} </td>
+                      `
+                            s(`[data-no-${2 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
+                      <td>   ${status.SuitFiledStatus} </td>
+                     `
+                            s(`[data-no-${2 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
+                     <td>  ${status.AssetClassificationStatus} </td>
+                    `
+                        }
+                    }
+                    {
+                        // account 3 history
+                        if(Account[3-1]){
+                            const acc = Account[3 - 1].History48Months.Month
+                            if (i <= acc.length - 1) {
+                                const status = acc[i];
+                                // console.log(Account[1].History48Months.Month.length)
+                                // console.log(status._key)
+                                s(`[data-no-${3 - 1}] .data-no-month-row`).innerHTML += `
+                            <td>   ${status.attr.key} </td>
+                           `
+                                s(`[data-no-${3 - 1}] .data-no-payment-row`).innerHTML += `
+                           <td>   ${status.PaymentStatus} </td>
+                          `
+                                s(`[data-no-${3 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
+                          <td>   ${status.SuitFiledStatus} </td>
+                         `
+                                s(`[data-no-${3 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
+                         <td>  ${status.AssetClassificationStatus} </td>
+                        `
+                            }
+                        }
+                       
+                    }
+
+                    {
+                        // account 4 history
+                        if (Account[4 - 1]) {
+                            const acc = Account[4 - 1].History48Months.Month
+                            if (i <= acc.length - 1) {
+                                const status = acc[i];
+                                // console.log(Account[1].History48Months.Month.length)
+                                // console.log(status._key)
+                                s(`[data-no-${4 - 1}] .data-no-month-row`).innerHTML += `
+                            <td>   ${status.attr.key} </td>
+                           `
+                                s(`[data-no-${4 - 1}] .data-no-payment-row`).innerHTML += `
+                           <td>   ${status.PaymentStatus} </td>
+                          `
+                                s(`[data-no-${4 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
+                          <td>   ${status.SuitFiledStatus} </td>
+                         `
+                                s(`[data-no-${4 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
+                         <td>  ${status.AssetClassificationStatus} </td>
+                        `
+                            }
                         }
                     }
 
 
+
+                    {
+                        // account 5 history
+                        if(Account[4]) {
+                            if (i <= 0) {
+                                const status = Account[4].History48Months.Month;
+                                //   console.log(JSON.stringify(status))
+                                //  console.log(status.PaymentStatus.__text)
+                                // console.log(Account[1].History48Months.Month.length)
+                                // console.log(status)
+    
+                                // console.log(status._key)
+                                if (status instanceof Array) {
+                                    //   console.log('true')
+    
+                                    status.forEach(v => {
+                                        s(`[data-no-4] .data-no-month-row`).innerHTML += `
+                                <td>   ${v.attr.key} </td>
+                               `
+                                        s(`[data-no-4] .data-no-payment-row`).innerHTML += `
+                               <td>   ${v.PaymentStatus} </td>
+                              `
+                                        s(`[data-no-4] .data-no-SuitFiledStatus-row`).innerHTML += `
+                              <td>   ${v.SuitFiledStatus} </td>
+                             `
+                                        s(`[data-no-4] .data-no-AssetClassificationStatus-row`).innerHTML += `
+                             <td>  ${v.AssetClassificationStatus} </td> `
+                                    })
+    
+                                } else {
+                                    // console.log('false')
+    
+                                    s(`[data-no-4] .data-no-month-row`).innerHTML += `
+                               <td>   ${status.attr.key} </td>
+                              `
+                                    s(`[data-no-4] .data-no-payment-row`).innerHTML += `
+                              <td>   ${status.PaymentStatus} </td>
+                             `
+                                    s(`[data-no-4] .data-no-SuitFiledStatus-row`).innerHTML += `
+                             <td>   ${status.SuitFiledStatus} </td>
+                            `
+                                    s(`[data-no-4] .data-no-AssetClassificationStatus-row`).innerHTML += `
+                            <td>  ${status.AssetClassificationStatus} </td> `
+                                }
+                            }
+                        }
+                        
+                    }
+
+                    for (let n = 6; n <= Number(totalAccount); n++) {
+                        //  console.log(n)
+
+                        {
+                            // account 6 history
+                            const acc = Account[n - 1].History48Months.Month
+
+                            if (i <= acc.length - 1) {
+
+                                const status = acc[i];
+                                // console.log(status)
+                                // console.log(Account[1].History48Months.Month.length)
+                                // console.log(status._key)
+                                s(`[data-no-${n - 1}] .data-no-month-row`).innerHTML += `
+                        <td>   ${status.attr.key} </td>
+                       `
+                                s(`[data-no-${n - 1}] .data-no-payment-row`).innerHTML += `
+                       <td>   ${status.PaymentStatus} </td>
+                      `
+                                s(`[data-no-${n - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
+                      <td>   ${status.SuitFiledStatus} </td>
+                     `
+                                s(`[data-no-${n - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
+                     <td>  ${status.AssetClassificationStatus} </td>
+                    `
+                            }
+                        }
+
+
+                    }
                 }
+            } else {
+                //  console.log('Account is object')
+
+
+
+                // // account 1 history
+                // const acc = Account.History48Months.Month
+                // //  console.log(acc)
+                // acc.map(v=> {
+
+
+                //     s(`[data-no-${1 - 1}] .data-no-month-row`).innerHTML += `
+                //     <td>   ${v.attr.key} </td>
+                //    `
+                //         s(`[data-no-${1 - 1}] .data-no-payment-row`).innerHTML += `
+                //    <td>   ${v.PaymentStatus} </td>
+                //   `
+                //         s(`[data-no-${1 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
+                //   <td>   ${v.SuitFiledStatus} </td>
+                //  `
+                //         s(`[data-no-${1 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML = `
+                //  <td>  ${v.AssetClassificationStatus} </td>
+                // `
+
+
+                // })
             }
+
             //  .................... History48Months......................End
 
             // ...................Account...............End
@@ -907,26 +975,11 @@ xhttp.onreadystatechange = function() {
             } else {
                 console.log('ConsumerDisputes not Found');
                 s('#ConsumerDisputes').classList.add('d-none')
-               
+
             }
 
 
-            // ...................ScoreDetails...............
-
-            function Report_ScoreDetails() {
-                const { ScoringElements: {
-                    ScoringElement
-                } } = ScoreDetail;
-                s('[data-score-count]').innerHTML = ScoreDetail.Value
-                ScoringElement.map((n, m) => {
-                    s('[data-Score-factor]').innerHTML +=
-                        `
-               <li class="py-1"> <span class="pr-2"> ${m + 1} </span> ${n.Description != undefined ? n.Description : ''}</li>
-               `
-                })
-            }
-            Report_ScoreDetails()
-            // ...................ScoreDetails...............End
+           
 
             // ..................... ReportData............................................End
 
@@ -941,8 +994,9 @@ xhttp.onreadystatechange = function() {
 
     }
 };
-
-xhttp.open("GET", 'js/ARTPA1070C.xml', true);
+// this is xml path url;
+let xml_path = 'js/xml_file/xml_file/BTPPV1344H.xml' 
+xhttp.open("GET", xml_path, true);
 xhttp.send();
 
 function xml2json(xml) {
@@ -991,36 +1045,3 @@ function xml2json(xml) {
         console.log(e.message);
     }
 }
-
-
-
-/*
-
-
-
-        // ...................ScoreDetails...............
-
-        function Report_ScoreDetails() {
-            const { ScoringElements: {
-                ScoringElement
-            } } = ScoreDetail;
-            s('[data-score-count]').innerHTML = ScoreDetail.Value.__text
-            ScoringElement.map((n, m) => {
-                s('[data-Score-factor]').innerHTML +=
-                    `
-               <li class="py-1"> <span class="pr-2"> ${m + 1} </span> ${n.Description.__text != undefined ? n.Description.__text : ''}</li>
-               `
-            })
-        }
-        Report_ScoreDetails()
-        // ...................ScoreDetails...............End
-
-        // ..................... ReportData............................................End
-
-    })
-    .catch(e => {
-        console.log(e)
-    })
-
-
-    */

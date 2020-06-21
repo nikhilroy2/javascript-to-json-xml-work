@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><sch:InquiryResponse xmlns:sch="http://services.equifax.com/eport/ws/schemas/1.0">
+<sch:InquiryResponseHeader>
+<sch:CustomerCode>BLSP</sch:CustomerCode>
+<sch:ClientID>006FP07153</sch:ClientID>
+<sch:CustRefField/>
+<sch:ReportOrderNO>71628051</sch:ReportOrderNO>
+<sch:SuccessCode>1</sch:SuccessCode>
+<sch:Date>21-06-2020</sch:Date>
+<sch:Time>12:45:11</sch:Time>
+<sch:HitCode>11</sch:HitCode>
+<sch:ProductCodes>
+<sch:ProductCode>IDCR</sch:ProductCode>
+</sch:ProductCodes>
+</sch:InquiryResponseHeader>
+<sch:InquiryRequestInfo>
+<sch:InquiryPurpose>00</sch:InquiryPurpose>
+<sch:FullName>CHANDAN SONI</sch:FullName>
+<sch:FirstName>CHANDAN</sch:FirstName>
+<sch:LastName>SONI</sch:LastName>
+<sch:AddrLine1>NA</sch:AddrLine1>
+<sch:State>HR</sch:State>
+<sch:Postal>122004</sch:Postal>
+<sch:InquiryAddresses>
+<sch:InquiryAddress seq="1">
+<sch:AddressLine>NA</sch:AddressLine>
+<sch:State>HR</sch:State>
+<sch:Postal>122004</sch:Postal>
+</sch:InquiryAddress>
+</sch:InquiryAddresses>
+<sch:InquiryPhones>
+<sch:InquiryPhone seq="1">
+<sch:Number>7835953392</sch:Number>
+<sch:PhoneType>M</sch:PhoneType>
+</sch:InquiryPhone>
+</sch:InquiryPhones>
+<sch:DOB>1999-08-12</sch:DOB>
+<sch:PANId>JHSPS8391L</sch:PANId>
+<sch:MobilePhone>7835953392</sch:MobilePhone>
+</sch:InquiryRequestInfo>
+<sch:Scores>
+<sch:Score seq="1">
+<sch:Type>ERS</sch:Type>
+<sch:Version>3.1</sch:Version>
+</sch:Score>
+</sch:Scores>
+<sch:ReportData>
+<sch:IDAndContactInfo>
+<sch:PersonalInfo>
+<sch:Name>
+<sch:FullName>CHANDAN SONI </sch:FullName>
+</sch:Name>
+<sch:DateOfBirth>1999-08-12</sch:DateOfBirth>
+<sch:Gender>Male</sch:Gender>
+<sch:Age>
+<sch:Age>20</sch:Age>
+</sch:Age>
+<sch:TotalIncome>15000</sch:TotalIncome>
+<sch:Occupation/>
+</sch:PersonalInfo>
+<sch:IdentityInfo>
+<sch:PANId seq="1" ReportedDate="2019-09-30">
+<sch:IdNumber>JHSPS8391L</sch:IdNumber>
+</sch:PANId>
+<sch:NationalIDCard seq="1" ReportedDate="2018-12-03">
+<sch:IdNumber>287595199404</sch:IdNumber>
+</sch:NationalIDCard>
+</sch:IdentityInfo>
+<sch:AddressInfo seq="1" ReportedDate="2019-09-30">
+<sch:Address>VIPUL TECH SQUARE TOWER,C 3RD FLOOR,SECTOR-43 GOLF COURSE ROAD,GURGAON GURGAON 122009</sch:Address>
+<sch:State>HR</sch:State>
+<sch:Postal>122009</sch:Postal>
+<sch:Type>Owns</sch:Type>
+</sch:AddressInfo>
+<sch:AddressInfo seq="2" ReportedDate="2019-09-30">
+<sch:Address>HO NO-196/25C B-BLK CSA COLONY,RALY LINE WAZIRPUR-3 NEW DELHI 110052</sch:Address>
+<sch:State>DL</sch:State>
+<sch:Postal>110052</sch:Postal>
+<sch:Type>Owns,Primary</sch:Type>
+</sch:AddressInfo>
+<sch:PhoneInfo typeCode="H" seq="1" ReportedDate="2019-09-30">
+<sch:Number>9718823392</sch:Number>
+</sch:PhoneInfo>
+<sch:PhoneInfo typeCode="M" seq="2" ReportedDate="2019-09-30">
+<sch:Number>9718823392</sch:Number>
+</sch:PhoneInfo>
+<sch:PhoneInfo typeCode="M" seq="3" ReportedDate="2019-09-30">
+<sch:Number>7835953392</sch:Number>
+</sch:PhoneInfo>
+</sch:IDAndContactInfo>
+<sch:AccountSummary>
+<sch:AccountsSummary>
+<sch:NoOfAccounts>1</sch:NoOfAccounts>
+<sch:NoOfActiveAccounts>0</sch:NoOfActiveAccounts>
+<sch:NoOfWriteOffs>0</sch:NoOfWriteOffs>
+<sch:TotalPastDue>0.00</sch:TotalPastDue>
+<sch:MostSevereStatusWithIn24Months>Std</sch:MostSevereStatusWithIn24Months>
+<sch:SingleHighestCredit>0.00</sch:SingleHighestCredit>
+<sch:SingleHighestSanctionAmount>0.00</sch:SingleHighestSanctionAmount>
+<sch:TotalHighCredit>0.00</sch:TotalHighCredit>
+<sch:SingleHighestBalance>0.00</sch:SingleHighestBalance>
+<sch:NoOfPastDueAccounts>0</sch:NoOfPastDueAccounts>
+<sch:NoOfZeroBalanceAccounts>0</sch:NoOfZeroBalanceAccounts>
+<sch:RecentAccount>Two-wheeler Loan on 30-11-2018</sch:RecentAccount>
+<sch:OldestAccount>Two-wheeler Loan on 30-11-2018</sch:OldestAccount>
+<sch:TotalBalanceAmount>0.00</sch:TotalBalanceAmount>
+<sch:TotalSanctionAmount>0.00</sch:TotalSanctionAmount>
+<sch:TotalCreditLimit>0.0</sch:TotalCreditLimit>
+<sch:TotalMonthlyPaymentAmount>0.00</sch:TotalMonthlyPaymentAmount>
+</sch:AccountsSummary>
+</sch:AccountSummary>
+<sch:RecentActivities>
+<sch:AccountsDeliquent>0</sch:AccountsDeliquent>
+<sch:AccountsOpened>0</sch:AccountsOpened>
+<sch:TotalInquiries>0</sch:TotalInquiries>
+<sch:AccountsUpdated>0</sch:AccountsUpdated>
+</sch:RecentActivities>
+<sch:OtherKeyInd>
+<sch:AgeOfOldestTrade>19</sch:AgeOfOldestTrade>
+<sch:NumberOfOpenTrades>0</sch:NumberOfOpenTrades>
+<sch:AllLinesEVERWritten>0.00</sch:AllLinesEVERWritten>
+<sch:AllLinesEVERWrittenIn9Months>0</sch:AllLinesEVERWrittenIn9Months>
+<sch:AllLinesEVERWrittenIn6Months>0</sch:AllLinesEVERWrittenIn6Months>
+</sch:OtherKeyInd>
+<sch:EnquirySummary>
+<sch:Purpose>ALL</sch:Purpose>
+<sch:Total>1</sch:Total>
+<sch:Past30Days>0</sch:Past30Days>
+<sch:Past12Months>0</sch:Past12Months>
+<sch:Past24Months>0</sch:Past24Months>
+<sch:Recent>07-04-2018</sch:Recent>
+</sch:EnquirySummary>
+<sch:Enquiries seq="1">
+<sch:Institution>Home Credit India Finance Private Limited</sch:Institution>
+<sch:Date>2018-04-07</sch:Date>
+<sch:Time>17:35</sch:Time>
+<sch:RequestPurpose>00</sch:RequestPurpose>
+</sch:Enquiries>
+<sch:AccountDetails>
+<sch:Account seq="1" ReportedDate="2019-09-30">
+<sch:AccountNumber> DELTWL00100003243810</sch:AccountNumber>
+<sch:Institution>Hero Fincorp Limited</sch:Institution>
+<sch:AccountType>Two-wheeler Loan</sch:AccountType>
+<sch:OwnershipType>Individual</sch:OwnershipType>
+<sch:Balance>0</sch:Balance>
+<sch:PastDueAmount>0</sch:PastDueAmount>
+<sch:LastPayment>72743</sch:LastPayment>
+<sch:Open>No</sch:Open>
+<sch:SanctionAmount>50000</sch:SanctionAmount>
+<sch:LastPaymentDate>2019-09-08</sch:LastPaymentDate>
+<sch:DateReported>2019-09-30</sch:DateReported>
+<sch:DateOpened>2018-11-30</sch:DateOpened>
+<sch:DateClosed>2019-09-13</sch:DateClosed>
+<sch:Reason>Closed Account</sch:Reason>
+<sch:InterestRate>17.32</sch:InterestRate>
+<sch:RepaymentTenure>24</sch:RepaymentTenure>
+<sch:DisputeCode/>
+<sch:InstallmentAmount>2490</sch:InstallmentAmount>
+<sch:TermFrequency>Monthly</sch:TermFrequency>
+<sch:CollateralValue/>
+<sch:CollateralType/>
+<sch:AccountStatus>Closed Account</sch:AccountStatus>
+<sch:AssetClassification>Standard</sch:AssetClassification>
+<sch:SuitFiledStatus/>
+<sch:History48Months>
+<sch:Month key="09-19">
+<sch:PaymentStatus>CLSD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="08-19">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="07-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="06-19">
+<sch:PaymentStatus>STD</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="05-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="04-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="03-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="02-19">
+<sch:PaymentStatus>000</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="01-19">
+<sch:PaymentStatus>*</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>*</sch:AssetClassificationStatus>
+</sch:Month>
+<sch:Month key="12-18">
+<sch:PaymentStatus>NEW</sch:PaymentStatus>
+<sch:SuitFiledStatus>*</sch:SuitFiledStatus>
+<sch:AssetClassificationStatus>STD</sch:AssetClassificationStatus>
+</sch:Month>
+</sch:History48Months>
+</sch:Account>
+</sch:AccountDetails>
+<sch:Disclaimer>
+			This report is to be used subject to and in compliance with the
+			Membership agreement entered into between the Member/Specified User
+			and Equifax Credit Information Services Private Limited ("ECIS"), in
+			the case of Members/Specified Users of ECIS. In other cases, the use
+			of this report is governed by the terms and conditions of ECIS,
+			contained in the Application form submitted by the customer/user.
+
+			The information contained in this report is derived from various
+			Members/sources which are not controlled by ECIS. ECIS provides this
+			report on a best effort basis and does not guarantee the timeliness,
+			correctness or completeness of the information contained
+			therein,except as explicitly stated in the Membership agreement/terms
+			and conditions of ECIS, as the case may be.
+		</sch:Disclaimer>
+<sch:ScoreDetails>
+<sch:ScoreDetail>
+<sch:Name>M001</sch:Name>
+<sch:Version>3.1</sch:Version>
+<sch:Type>ERS</sch:Type>
+<sch:Value>771</sch:Value>
+<sch:ScoringElements>
+<sch:ScoringElement type="RES" seq="1">
+<sch:Code/>
+<sch:Description>Number of closed trades</sch:Description>
+</sch:ScoringElement>
+<sch:ScoringElement type="RES" seq="2">
+<sch:Code>4a</sch:Code>
+<sch:Description>Delinquency or past due amount occurences</sch:Description>
+</sch:ScoringElement>
+</sch:ScoringElements>
+</sch:ScoreDetail>
+</sch:ScoreDetails>
+</sch:ReportData>
+</sch:InquiryResponse></soapenv:Body></soapenv:Envelope>
