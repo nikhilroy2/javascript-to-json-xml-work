@@ -1002,9 +1002,6 @@ xhttp.onreadystatechange = function() {
 
             // ......................... OutPut Code ............ End
         }
-
-
-
     } else if (xhttp.status === 404) {
         noneXml('Page Not Found XML File')
 
