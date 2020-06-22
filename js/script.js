@@ -533,7 +533,8 @@ xhttp.onreadystatechange = function() {
             // ...................Account...............
             // console.log(Account)
             function Report_Account() {
-                let { Account } = AccountDetails;
+                //let { Account } = AccountDetails;
+                let Account = AccountDetails.Account instanceof Array ? AccountDetails.Account : [AccountDetails.Account];
 
                 if (Account instanceof Array) {
                     //console.log('')
@@ -644,56 +645,71 @@ xhttp.onreadystatechange = function() {
 
             //  .................... History48Months......................
             //  console.log(Account)
-            let { Account } = AccountDetails;
+           
+            let Account = AccountDetails.Account instanceof Array ? AccountDetails.Account : [AccountDetails.Account];
+         
+          //  console.log(Account);
+            
             if (Account instanceof Array) {
                 const totalAccount = Account.length;
-                //  console.log(totalAccount)
+                // console.log(totalAccount)
                 for (let i = 0; i < Number(totalAccount); i++) {
                     {
                         // const {History48Months: {Month}} = Account[i];
                         // const monthObj = Month instanceof Array ? Month : [Month];
 
                         // account 1 history
-                        const acc = Account[1 - 1].History48Months.Month
-                        //  console.log(acc)
-                        if (i <= acc.length - 1) {
-                            const status = acc[i];
+                        if(Account[1-1]) {
+                            const acc = Account[1-1].History48Months.Month
+                           // console.log(acc)
+                           if(i <= 1){
+                            acc.forEach((v,j)=> {
+                               console.log(j)
+                                s(`[data-no-${1 - 1}] .data-no-month-row`).innerHTML += `
+                                <td>   ${v.attr.key} </td>
+                               `
+                                    s(`[data-no-${1 - 1}] .data-no-payment-row`).innerHTML += `
+                               <td>   ${v.PaymentStatus} </td>
+                              `
+                                    s(`[data-no-${1 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
+                              <td>   ${v.SuitFiledStatus} </td>
+                             `
+                                    s(`[data-no-${1 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
+                             <td>  ${v.AssetClassificationStatus} </td>
+                            `
+                            })
+                           } 
+                          
 
-                            s(`[data-no-${1 - 1}] .data-no-month-row`).innerHTML += `
-                        <td>   ${status.attr.key} </td>
-                       `
-                            s(`[data-no-${1 - 1}] .data-no-payment-row`).innerHTML += `
-                       <td>   ${status.PaymentStatus} </td>
-                      `
-                            s(`[data-no-${1 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
-                      <td>   ${status.SuitFiledStatus} </td>
-                     `
-                            s(`[data-no-${1 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
-                     <td>  ${status.AssetClassificationStatus} </td>
-                    `
+                            
+                            
                         }
+                        
                     }
 
                     {
                         // account 2 history
-                        const acc = Account[2 - 1].History48Months.Month
-                        if (i <= acc.length - 1) {
-                            const status = acc[i];
-                            // console.log(Account[1].History48Months.Month.length)
-                            // console.log(status._key)
-                            s(`[data-no-${2 - 1}] .data-no-month-row`).innerHTML += `
-                        <td>   ${status.attr.key} </td>
-                       `
-                            s(`[data-no-${2 - 1}] .data-no-payment-row`).innerHTML += `
-                       <td>   ${status.PaymentStatus} </td>
-                      `
-                            s(`[data-no-${2 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
-                      <td>   ${status.SuitFiledStatus} </td>
-                     `
-                            s(`[data-no-${2 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
-                     <td>  ${status.AssetClassificationStatus} </td>
-                    `
+                        if(Account[2-1]){
+                            const acc = Account[2 - 1].History48Months.Month
+                            if (i <= acc.length - 1) {
+                                const status = acc[i];
+                                // console.log(Account[1].History48Months.Month.length)
+                                // console.log(status._key)
+                                s(`[data-no-${2 - 1}] .data-no-month-row`).innerHTML += `
+                            <td>   ${status.attr.key} </td>
+                           `
+                                s(`[data-no-${2 - 1}] .data-no-payment-row`).innerHTML += `
+                           <td>   ${status.PaymentStatus} </td>
+                          `
+                                s(`[data-no-${2 - 1}] .data-no-SuitFiledStatus-row`).innerHTML += `
+                          <td>   ${status.SuitFiledStatus} </td>
+                         `
+                                s(`[data-no-${2 - 1}] .data-no-AssetClassificationStatus-row`).innerHTML += `
+                         <td>  ${status.AssetClassificationStatus} </td>
+                        `
+                            }
                         }
+                       
                     }
                     {
                         // account 3 history
