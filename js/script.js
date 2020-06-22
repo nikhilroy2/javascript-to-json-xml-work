@@ -28,7 +28,7 @@ xhttp.onreadystatechange = function() {
             function ReportObject() {
                 return api;
             }
-            console.log(JSON.stringify(api));
+            // console.log(JSON.stringify(api));
             // for not found ... 
             const { ClientID, ReportOrderNO, Date, Time, SuccessCode } = ReportObject().InquiryResponseHeader;
 
@@ -170,7 +170,7 @@ xhttp.onreadystatechange = function() {
                 `
                         } else {
                             console.log('PersonalInfo Not Found');
-                            s('#APPLICANT_DETAILS').innerHTML = ''
+                            // s('#APPLICANT_DETAILS').innerHTML = ''
                         }
                     } {
                         // console.log(IdentityInfo)
@@ -214,7 +214,7 @@ xhttp.onreadystatechange = function() {
 
                     } else {
                         console.log('IdentityInfo  Not Found');
-                        s('#APPLICANT_DETAILS').classList.add('d-none')
+                       // s('#APPLICANT_DETAILS').classList.add('d-none')
                     }
                 }
                 /*
@@ -269,7 +269,7 @@ xhttp.onreadystatechange = function() {
                         })
                     } else {
                         console.log('AddressInfo Not Found');
-                        s('#APPLICANT_DETAILS').classList.add('d-none')
+                      //  s('#APPLICANT_DETAILS').classList.add('d-none')
 
                     }
 
@@ -317,7 +317,7 @@ xhttp.onreadystatechange = function() {
                         })
                     } else {
                         console.log('PhoneInfo not Found');
-                        s('#APPLICANT_DETAILS').classList.add('d-none');
+                     //   s('#APPLICANT_DETAILS').classList.add('d-none');
                     }
 
                 }
