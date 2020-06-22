@@ -357,7 +357,7 @@ xhttp.onreadystatechange = function() {
 
                     } else {
                         console.log('EmailAddressInfo not Found');
-                        s('#APPLICANT_DETAILS').classList.add('d-none');
+                       // s('#APPLICANT_DETAILS').classList.add('d-none');
                     }
                 }
 
@@ -1008,7 +1008,7 @@ xhttp.onreadystatechange = function() {
     }
 };
 // this is xml path url;
-let xml_path = 'js/xml_file/xml_file/BTPPV1344H.xml' 
+let xml_path = 'js/xml_file/xml_file/JHSPS8391L.xml' 
 xhttp.open("GET", xml_path, true);
 xhttp.send();
 
